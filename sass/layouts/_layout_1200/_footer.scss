@@ -1,0 +1,24 @@
+.footer {
+
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 70px 10px;
+
+        div:not(:last-child) {
+            margin-bottom: 0;
+        }
+        
+        .footer-form {
+
+            &__place {
+    
+                input {
+                    width: 340px;
+ 
+                }
+            }
+        }
+    }
+}

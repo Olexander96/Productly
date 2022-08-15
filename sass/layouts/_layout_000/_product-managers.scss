@@ -1,0 +1,60 @@
+.product-managers {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 10px 0;/*100*/
+    }
+
+    &__img {
+        max-width: 520px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        font-family: $montserratFont;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        color: $brown;
+        max-width: 505px;
+    }
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px; /*40*/
+
+        p:nth-child(1) {
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 25px; /*36*/
+            color: $dark;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: row;
+
+        .icon {
+            max-width: 35px;
+            max-height: 35px;
+            margin-right: 30px;
+        }
+    }
+
+    &__item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}

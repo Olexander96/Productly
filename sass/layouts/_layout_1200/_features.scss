@@ -1,0 +1,18 @@
+.features {
+
+    .container {
+        padding: 100px 10px 74px;/*100 / 74*/
+
+        .features-title {
+            margin-bottom: 50px;/*50*/
+        }
+
+        .features-cards {
+            margin-bottom: 70px;/*70*/
+
+            &__item:not(:last-child) {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

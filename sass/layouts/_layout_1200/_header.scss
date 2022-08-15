@@ -1,0 +1,33 @@
+.header {
+   
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .productly-logo {
+            margin-bottom: 0;
+        }
+
+        .header__nav {
+            margin-bottom: 0;
+
+            .menu-button {
+                display: none;
+            }
+
+            .menu__list {
+                flex-direction: row;
+            }
+
+            .menu__item:not(:last-child) {
+                margin-bottom: 0;
+                margin-right: 20px;
+            }
+        }
+
+        .header-buttons {
+            display: flex;
+        }
+    }
+}

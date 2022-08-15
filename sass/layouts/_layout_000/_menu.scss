@@ -1,0 +1,29 @@
+.menu__list {
+    display: none;
+    /*display: flex;*/
+    flex-direction: column;
+    font-family: $montserratFont;
+    font-style: normal;
+    font-weight: 400;
+
+    .menu__item {
+        text-align: center;
+
+        .menu__link {
+            text-decoration: none;
+            color: $dark;
+            cursor: pointer;
+        }
+        
+        .menu__link:hover {
+            color: $orange;
+        }
+    }
+    
+    .menu__item:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    
+    
+}
+

@@ -1,0 +1,28 @@
+.benefits {
+
+    .container {
+        flex-direction: row;
+        padding: 100px 10px 0;/*100*/
+        justify-content: space-between;
+
+        .benefits__text {
+           align-items: center;
+           
+            .benefits__title {
+                margin-bottom: 40px;/*40*/
+
+
+                h2 {
+                    font-size: 36px; /*36*/
+                }
+            }
+
+            .benefits__list {
+
+                .benefits__item:not(:last-child) {
+                    margin-bottom: 30px;/*30*/
+                }
+            }
+        }
+    }
+}

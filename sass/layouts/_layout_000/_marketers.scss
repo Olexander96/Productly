@@ -1,0 +1,58 @@
+.marketers {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 10px;/*100*/
+        font-family: $montserratFont;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        color: $brown;
+
+        .marketers__text {
+            display: flex;
+            flex-direction: column;
+            max-width: 486px;
+
+            .marketers__title {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 25px;/*40*/
+
+                p:nth-child(1) {
+                    margin-bottom: 15px;
+                }
+
+                h2 {
+                    font-weight: 700;
+                    font-size: 25px; /*36*/
+                    color: $dark;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .marketers__list {
+                display: flex;
+                flex-direction: column;
+
+                .marketers__item {
+
+                    h3 {
+                        font-weight: 700;
+                        color: $dark;
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .marketers__item:not(:last-child) {
+                    margin-bottom: 15px;/*30*/
+                }
+            }
+        }
+
+        .marketers__img {
+            max-width: 540px;
+        }
+    }
+}

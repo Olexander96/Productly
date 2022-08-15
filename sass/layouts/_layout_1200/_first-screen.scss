@@ -1,0 +1,19 @@
+.first-screen {
+    
+    .container {
+        padding-top: 70px; 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .info {
+            max-width: 500px;
+
+            &__title {
+                font-size: 44px;
+                line-height: 54px;
+            }
+        }
+    }
+}

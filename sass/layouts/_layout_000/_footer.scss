@@ -1,0 +1,99 @@
+.footer {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        font-family: $montserratFont;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: $brown;
+        padding: 35px 10px;
+
+        .productly-logo {
+            width: 200px;
+            height: 32px;
+            margin-bottom: 30px;
+        }
+
+        .links, .stuff, .footer-form {
+            display: flex;
+            flex-direction: column;
+
+            &__title {
+                font-weight: 700;
+                font-size: 20px;
+                color: $dark;
+                margin-bottom: 30px;
+                max-width: 280px;
+            }
+
+            &__list {
+                display: flex;
+                flex-direction: column;
+            }
+
+            &__item {
+                    
+                a {
+                    text-decoration: none;
+                }
+
+                a:visited {
+                    color: $brown;
+                }
+            }
+
+            &__item:not(:last-child) {
+                margin-bottom: 15px;
+            }
+        }
+
+        div:not(:last-child) {
+            margin-bottom: 30px;
+        }
+
+        .footer-form {
+
+            &__title {
+                line-height: 30px;
+            }
+
+            &__place {
+                display: flex;
+                flex-direction: column;
+    
+                input {
+                    display: block;
+                    max-width: 340px;
+                    height: 50px;
+                    padding: 10px;
+                    margin-bottom: 25px;
+                    font-family: $montserratFont;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: $silverWhite;
+                    border: 1px solid $silverWhite;
+                    border-radius: 4px;
+                }
+
+                button {
+                    width: 180px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: $orange;
+                    border: transparent;
+                    border-radius: 4px;
+                    font-family: $poppins;
+                    font-weight: 700;
+                    color: $white;
+                    cursor: pointer
+                }
+            }
+        }  
+    }
+}

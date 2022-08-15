@@ -1,0 +1,27 @@
+.marketers {
+
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px 10px;/*100*/
+        
+        .marketers__text {
+
+            .marketers__title {
+                margin-bottom: 40px;/*40*/
+
+                h2 {
+                    font-size: 36px; /*36*/
+                }
+            }
+
+            .marketers__list {
+
+                .marketers__item:not(:last-child) {
+                    margin-bottom: 30px;/*30*/
+                }
+            }
+        }
+    }
+}
